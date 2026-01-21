@@ -1,0 +1,13 @@
+# Compiled Object files
+*.o
+*.obj
+*.ko
+
+# Compiled Dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Visual Studio
+.vs/
+*.user
