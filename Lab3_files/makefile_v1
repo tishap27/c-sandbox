@@ -1,0 +1,22 @@
+CC = gcc
+CFLAGS = -pedantic -ansi -Wall -Wextra uo
+TARGET = lab3.exe
+OBJS = main.o commands.o tools.o users.o
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
+
+main.o: main.c commands.h users.h tools.h defs.h
+	$(CC) $(CFLAGS) main.c -c
+
+commands.o: commands.c commands.h
+	$(CC) $(CFLAGS) commands.c -c
+
+tools.o: tools.c tools.h
+	$(CC) $(CFLAGS) tools.c -c
+
+users.o: users.c users.h
+	$(CC) $(CFLAGS) users.c -c
+
+clean:
+	rm -f $(OBJS) $(TARGET)

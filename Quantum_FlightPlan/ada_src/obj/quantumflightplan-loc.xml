@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>C:\CST8234\Quantum_FlightPlan\ada_src\quantumflightplan.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\CST8234\Quantum_FlightPlan\ada_src\src\optimizer.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

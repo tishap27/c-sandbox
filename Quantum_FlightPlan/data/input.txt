@@ -1,0 +1,3 @@
+Departure: CYOW
+Arrival: CYYZ
+Altitude: 9000

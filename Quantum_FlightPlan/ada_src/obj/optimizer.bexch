@@ -1,0 +1,18 @@
+[GENERATED OBJECT FILE]
+b__optimizer.o
+[PROJECT FILES]
+C:\CST8234\Quantum_FlightPlan\ada_src\quantumflightplan.gpr
+20250705214946 2d1c72e3dbed44e1421ae91d75bac685
+[BOUND OBJECT FILES]
+C:\CST8234\Quantum_FlightPlan\ada_src\obj\optimizer.o
+[GENERATED SOURCE FILES]
+b__optimizer.ads
+b__optimizer.adb
+b__optimizer.ali
+[RESULTING OPTIONS]
+-LC:\CST8234\Quantum_FlightPlan\ada_src\obj\
+-LC:\CST8234\Quantum_FlightPlan\ada_src\obj\
+-LC:/users/tisha/appdata/local/alire/cache/toolchains/gnat_native_15.1.2_85aa1632/lib/gcc/x86_64-w64-mingw32/15.1.0/adalib/
+-static
+C:/users/tisha/appdata/local/alire/cache/toolchains/gnat_native_15.1.2_85aa1632/lib/gcc/x86_64-w64-mingw32/15.1.0/adalib/libgnat.a
+-Wl,--stack=0x2000000

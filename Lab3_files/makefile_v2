@@ -1,0 +1,15 @@
+CC = gcc
+CFLAGS = -pedantic -ansi -Wall -Wextra
+TARGET = lab3.exe
+SRCS = main.c commands.c tools.c users.c
+OBJS = $(SRCS:.c=.o)
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) $^ -o $@
+
+main.o: main.c commands.h users.h tools.h defs.h
+
+clean:
+	rm -f $(OBJS) $(TARGET)
+
+	
